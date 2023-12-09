@@ -1,0 +1,146 @@
+.header {
+    overflow: hidden;
+    background-color: rgb(44,62,80);
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header-right {
+    float: right;
+  }  
+.section-2{
+    background-color: rgb(52,152,219);
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-weight: bolder;
+}
+#btn{
+    background-color: white;
+    border: none;
+    color: rgb(52,152,219);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Use flexbox to enable the layout */
+  padding-top: 4%;
+  @media screen and (max-width: 600px) {
+      display: none;
+  
+}
+}
+
+/* Style for individual containers */
+.box {
+  
+  width: 20%; /* Each container takes 50% of the width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Include padding and border in the box sizing */
+  background: #ccc;
+  margin-left: 2%;
+}
+
+.about-Us{
+    background-color: #ECF0F1;
+    color: black;
+    padding: 90px;
+
+}
+#bolder{
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+#lorem{
+     font-weight: 700; 
+     font-style: normal;
+    font-size: 18px;
+    text-align: center;  
+}
+
+#contact-us{
+    margin-top: 2%;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+#text-center{
+    font-weight: 700; 
+    font-style: normal;
+   font-size: 18px;
+   text-align: center;
+   /* margin: 2%; */
+}
+.form
+{
+  flex-wrap: wrap;
+}
+#name{
+    text-align: center;
+}
+#fname{
+  padding: 10px;
+  width:97%
+}
+
+#email{
+  text-align: center;
+}
+
+#email2{
+  padding: 10px;
+  width:97%
+}
+
+
+#msg{
+  text-align: center;
+}
+#msg2{
+  padding: 40px;
+  width: 90%;
+}
+#sub-btn{
+  background-color: white;
+  border: none;
+  color: rgb(52,152,219);
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+  font-weight: bolder;
+  border: 1px solid black;
+  margin-left: 45%;
+}
+     
