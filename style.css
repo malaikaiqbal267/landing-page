@@ -58,7 +58,8 @@
 
 /* Style for individual containers */
 .box {
-  
+  display: flex;
+  flex-wrap: wrap;
   width: 20%; /* Each container takes 50% of the width */
   padding: 20px;
   border: 1px solid #ccc;
