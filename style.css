@@ -45,27 +45,26 @@
     font-weight: bolder;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap; /* Use flexbox to enable the layout */
-  padding-top: 4%;
-  padding-bottom: 3%;
-  @media screen and (max-width: 600px) {
-      display: none;
+.con{
+  display: grid;
+column-gap: 50px;
+row-gap:50px;
+grid-template-columns: auto auto auto ;
+/* display: flex; */
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 10px;
+margin: 50px;
   
 }
-}
-
-/* Style for individual containers */
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  width: 20%; /* Each container takes 50% of the width */
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-sizing: border-box; /* Include padding and border in the box sizing */
-  background: #ccc;
-  margin-left: 2%;
+.fea {
+  display: grid;
+  background-color: rgb(211, 211, 211);;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  
 }
 
 .about-Us{
@@ -127,7 +126,7 @@
 }
 #msg2{
   padding: 40px;
-  width: 90%;
+  width: 93%;
 }
 #sub-btn{
   background-color: white;
